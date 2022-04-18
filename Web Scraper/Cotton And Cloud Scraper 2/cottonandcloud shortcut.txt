@@ -1,0 +1,47 @@
+(<!-- wp:image \{"id":|<!-- wp:image \{"align":"left","id":)
+<!-- wp:image {"align":"center","id":
+
+alignleft
+aligncenter
+
+("sizeSlug":"large"|"sizeSlug":"full")
+"width":1200,"sizeSlug":"full"
+
+(size-large|size-full)
+size-full is-resized
+
+<figure class="wp-block-image size-full is-resized">
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized">
+
+/></figure>
+ width="1200"/><figcaption>Image Source: </figcaption></figure>
+
+-1\d.*.jpg
+.jpg
+
+</figure>
+</figure></div>
+
+</div></div>
+</div>
+
+</div></figure></div>
+</div></figure>
+
+
+
+// add image widgets
+</h2>\n<!-- /wp:heading -->
+
+</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image -->
+<figure class="wp-block-image"><img alt=""/></figure>
+<!-- /wp:image -->
+
+<h2>
+<h2><strong>
+
+</h2>
+</strong></h2>

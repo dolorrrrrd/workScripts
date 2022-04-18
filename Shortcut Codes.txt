@@ -1,0 +1,5 @@
+.com/.*/dp/    .com/dp/
+/ref.*  ?tag=clienttemp-20
+rel="     rel="nofollow 
+<iframe     <center><iframe
+</iframe> </iframe></center>

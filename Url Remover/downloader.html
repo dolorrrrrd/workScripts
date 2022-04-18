@@ -1,0 +1,36 @@
+<HTML>
+    <head>
+    </head>
+    <body>
+        <button id="downloadImage"> Download Image </button>
+    </body>
+</HTML>
+<script>
+const btn = document.getElementById('downloadImage');
+const url = "https://stateofmarijuana.com/wp-content/uploads/2021/07/Plush-Berry-Strain-Review.jpg";
+
+btn.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log('ABC')
+  downloadImage(url);
+})
+
+
+function downloadImage(url) {
+  fetch(url, {
+    mode : 'no-cors',
+  })
+    .then(response => response.blob())
+    .then(blob => {
+    let blobUrl = window.URL.createObjectURL(jpg);
+    let a = document.createElement('a');
+    a.download = url.replace(/^.*[\\\/]/, '');
+    a.href = blobUrl;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  })
+}
+
+
+</script>

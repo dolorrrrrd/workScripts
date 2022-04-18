@@ -1,0 +1,24 @@
+<HTML>
+    <head>
+    </head>
+    <body>
+        <a href='https://stateofmarijuana.com/wp-content/uploads/2021/07/Plush-Berry-Strain-Review.jpg' download>Download image</a>
+    </body>
+</HTML>
+<script>
+
+async function downloadImage(imageSrc) {
+  const image = await fetch(imageSrc)
+  const imageBlog = await image.blob()
+  const imageURL = URL.createObjectURL(imageBlog)
+
+  const link = document.createElement('a')
+  link.href = imageURL
+  link.download = 'image file name here'
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
+
+
+</script>
